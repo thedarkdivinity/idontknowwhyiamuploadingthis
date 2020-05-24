@@ -1,0 +1,22 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+.todo-list{
+  
+background-color: blue;
+}
+.td{
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: linear;
+
+}
+.td:hover{
+  
+  background: yellow;
+  box-shadow: 7px 8px 4px gray;
+  transform: scale(1.2,1.2);
+}
